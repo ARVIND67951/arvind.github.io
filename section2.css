@@ -152,3 +152,113 @@
     height: 220vh;
   }
 }
+@media (max-width: 900px) {
+  .projects div {
+    width: 45%;
+    margin: 10px 0;
+    height: 150px;
+  }
+  .shadeDiv p,
+  .shadeDiv a {
+    font-size: 16px;
+    padding: 30px;
+    text-align: start;
+  }
+
+  .section2 {
+    height: 90vh;
+  }
+
+  .section2 h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .projects div {
+    width: 50%;
+    margin: 10px;
+    height: 160px;
+  }
+
+  .shadeDiv p,
+  .shadeDiv a {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .section2 {
+    height: 100vh;
+  }
+
+  .section2 h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 500px) {
+  .projects div {
+    width: 80%;
+    margin: 15px auto;
+    height: 150px;
+  }
+
+  .shadeDiv p,
+  .shadeDiv a {
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .section2 {
+    height: 120vh;
+  }
+
+  .section2 h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 390px) {
+  .projects div {
+    width: 90%;
+    height: 140px;
+  }
+
+  .shadeDiv p,
+  .shadeDiv a {
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .section2 {
+    height: 150vh;
+  }
+
+  .section2 h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 380px) {
+  .projects div {
+    width: 100%;
+    height: 130px;
+  }
+
+  .shadeDiv p,
+  .shadeDiv a {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .section2 {
+    height: 180vh;
+  }
+
+  .section2 h1 {
+    font-size: 22px;
+  }
+}
