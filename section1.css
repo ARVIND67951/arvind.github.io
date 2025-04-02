@@ -268,3 +268,82 @@ nav {
     height: 100vh;
   }
 }
+@media (max-width: 900px) {
+  .infoSection .text p {
+    font-size: 14px;
+  }
+  .infoSection .text h1 {
+    font-size: 20px;
+  }
+  .infoSection .text h3 {
+    font-size: 18px;
+  }
+
+  .infoSection .text {
+    width: 50%;
+  }
+  .image {
+    width: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  .links ul {
+    width: 100%;
+    justify-content: center;
+  }
+  .section1 {
+    height: 100vh;
+  }
+  .navRight ul {
+    display: none;
+  }
+
+  .sideNav {
+    display: block;
+  }
+  .childSection {
+    height: 70vh;
+  }
+  .infoSection {
+    display: block;
+  }
+  .infoSection .text {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+  }
+  .image img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .childSection {
+    height: 80vh;
+  }
+
+  .navLeft h1 {
+    font-size: 18px;
+  }
+
+  .infoSection .text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  .childSection {
+    height: 100vh;
+  }
+  .navLeft h1 {
+    font-size: 16px;
+  }
+
+  .infoSection .text h3,
+  .infoSection .text p {
+    font-size: 12px;
+  }
+}
